@@ -6,16 +6,25 @@
     <title>learingcss</title>
     <style>
         p{
-            color:rgb(30, 233, 30);
+            color: green !important;
         }
 
         /* id selector */
         #intro{
-            color:rgb(218, 155, 20);
+            color:blue;
         }
         /* class selector */
         .note{
-            color:rgb(219, 20, 20);
+            color:red;
+        }
+        
+        .box{
+            height:150px;
+            width:200px;
+            border:3px solid black;
+            padding:20px;
+            margin:10px;
+            box-sizing: border-box;
         }
 
 
@@ -23,12 +32,13 @@
   </head>
  <body>
 
-    <h1>THIS IS MY HEADING</h1>
+    <h1 class="box">THIS IS MY HEADING</h1>
     <p id="intro" class="note">this is my paragraph.</p>
 
-    <p style="color:rgb(50, 76, 142)">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio modi, vel id, aperiam nam a asperiores consectetur natus dolores repellendus tempore esse. Ratione soluta nisi vero quasi, ut consectetur quam suscipit atque eius ab error dolorem magni corrupti sequi ex quas et tempora repudiandae quae eos ullam possimus officia. Qui, est rem, unde magni distinctio aperiam omnis dolorum blanditiis ipsam tempora laborum obcaecati voluptatem. Praesentium adipisci earum fugiat cupiditate molestias alias nobis excepturi rem exercitationem, accusamus doloremque obcaecati modi voluptate voluptatum quos delectus facilis blanditiis fuga eos quis tempora illum maxime neque? Dolore minus fuga maiores voluptatem suscipit adipisci cumque!</p>
+    <p style="color:purple">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio modi, vel id, aperiam nam a asperiores consectetur natus dolores repellendus tempore esse. Ratione soluta nisi vero quasi, ut consectetur quam suscipit atque eius ab error dolorem magni corrupti sequi ex quas et tempora repudiandae quae eos ullam possimus officia. Qui, est rem, unde magni distinctio aperiam omnis dolorum blanditiis ipsam tempora laborum obcaecati voluptatem. Praesentium adipisci earum fugiat cupiditate molestias alias nobis excepturi rem exercitationem, accusamus doloremque obcaecati modi voluptate voluptatum quos delectus facilis blanditiis fuga eos quis tempora illum maxime neque? Dolore minus fuga maiores voluptatem suscipit adipisci cumque!</p>
     <p id="intro">this is another paragraph</p>
- 
+    
+
     
 
 </body>
